@@ -1,11 +1,11 @@
 import { createForm, formShape } from "rc-form";
 import React from "react";
 
-class Form extends React.Component {
-  static propTypes = {
-    form: formShape,
-  };
+interface Props {
+  form: any;
+}
 
+class Form extends React.Component<Props, any> {
   submit = () => {
     this.props.form.validateFields((error, value) => {
       console.log(error, value);

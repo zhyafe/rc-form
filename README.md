@@ -21,3 +21,13 @@ let decorator = form.getFieldDecorator("demo", {
   decorator(<input />);
 }</div>
 ```
+
+## 常用表单
+
+- 基本输入
+- select
+- datePicker
+- 文本框
+- 页面跳转
+- 图片选择
+- 特殊情况
